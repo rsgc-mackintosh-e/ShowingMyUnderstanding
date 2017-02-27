@@ -31,7 +31,17 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
 
+for x in stride(from: 1, through: 275, by: 50){
+    for y in stride(from: 250, through: 25, by: -100){
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
+    }
+}
 
+for x in stride(from: 25, through: 300, by: 50){
+    for y in stride(from: 225, through: 1, by: -100){
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 25, height: 10)
+    }
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.

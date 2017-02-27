@@ -23,6 +23,14 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
 
+for x in stride(from: 0, through: 300, by: 1){
+    canvas.lineColor = Color.blue
+    canvas.drawLine(fromX: x, fromY: 0, toX: x, toY: 300)
+}
+
+let y = random(from: 0, toButNotIncluding: 25){
+canvas.drawEllipse(centreX: 150, centreY: 150, width: y, height: y)
+}
 
 /*:
  ## Template code
