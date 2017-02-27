@@ -16,10 +16,17 @@
 import Cocoa
 import PlaygroundSupport
 
+
+
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
+canvas.drawShapesWithFill = false
 
-// Replace this comment and add your code below...
+for x in stride(from: 0, through: 300, by: 10){
+    canvas.drawEllipse(centreX: x, centreY: x, width: x, height: x)
+    }
+
+
 
 /*:
  ## Template code
