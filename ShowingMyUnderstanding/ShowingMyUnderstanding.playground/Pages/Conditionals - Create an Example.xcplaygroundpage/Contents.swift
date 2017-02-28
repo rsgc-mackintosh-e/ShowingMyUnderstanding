@@ -25,43 +25,43 @@ let x =(from: 1, toButNotIncluding: 11){
 
 print( "RSGC Test scores (Out of 10)")
 
-    if x = 10 {
+    if x == 10 {
      print("Wow its a 10!")
     }
 
-    if x = 9 {
+    if x == 9 {
         print("Pretty good, still a 9!")
     }
 
-    if x = 8{
+    if x == 8{
        print("Still good!")
     }
 
-    if x = 7{
+    if x == 7{
       print("Meh")
     }
 
-    if x = 6{
+    if x == 6{
       print("Come on man")
     }
 
-    if x = 5{
+    if x == 5{
         print("OK, you have to pick it up")
     }
 
-    if x = 4{
+    if x == 4{
        print("Oh god, this is not good")
     }
 
-    if x = 3{
+    if x == 3{
         print("To knight support you go")
     }
 
-    if x = 2{
+    if x == 2{
         print("Im calling home")
     }
 
-    if x = 1{
+    if x == 1{
        print("You are done, out of RSGC") 
     }
 
