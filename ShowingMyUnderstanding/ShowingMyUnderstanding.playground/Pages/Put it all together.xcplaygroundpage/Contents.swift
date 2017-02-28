@@ -28,8 +28,16 @@ for x in stride(from: 0, through: 300, by: 1){
     canvas.drawLine(fromX: x, fromY: 0, toX: x, toY: 300)
 }
 
-let y = random(from: 0, toButNotIncluding: 25){
+let y = random(from: 1, toButNotIncluding: 25){
 canvas.drawEllipse(centreX: 150, centreY: 150, width: y, height: y)
+
+    if y >= 13 {
+        canvas.drawShapesWithFill = false
+    
+    }
+    else{
+        canvas.drawShapesWithFill = true
+    }
 }
 
 /*:

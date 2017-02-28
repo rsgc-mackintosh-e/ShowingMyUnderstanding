@@ -21,7 +21,7 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Replace this command and add your code below...
 
-let x = x(from: 1, toButNotIncluding: 11){
+let x =(from: 1, toButNotIncluding: 11){
 
 print( "RSGC Test scores (Out of 10)")
 
